@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    z-index: 6;
+    position: relative;
+   
+}
+
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    margin: 0 40px;
+}
+
+.nav1 a {
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    color:black;
+    padding: 4px;
+}
+
+.nav2 a {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.image {
+    background-image: url('hd-wallpaper-g4440e96ed_1280.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 67.5px);
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 5rem; 
+    transition: all 1s ease-in-out;
+}
+
+.burger {
+    margin-right: 30px;
+    font-size: 2rem;
+    display: none;
+}
+
+.text {
+    transform: translateY(-500px);
+    transition: all 1s ease-in-out;
+
+}
+
+.vis.text {
+    transform: translateY(0px);
+    z-index: 5;
+}
+
+@media screen and (max-width: 1100px) {
+    .nav {
+        display: none;
+    }
+    .burger {
+        display: block;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .fa-bars {
+        font-size: 2rem;
+        padding: 20px;
+    }
+    .image {
+        height: calc(100vh - 72px);
+    }
+    .text {
+       font-size: 3rem;
+       padding: 0 30px;
+       text-align: center;
+    }
+}
