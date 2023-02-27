@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
          text.classList.add('vis');
          setTimeout(() => {
             text.style.color = 'pink'
-            img.style.backgroundImage = 'url(/beach-1852945_1280.jpg)';
+            // img.style.backgroundImage = 'url(/beach-1852945_1280.jpg)';
          }, 300);
     }, 100);
     
