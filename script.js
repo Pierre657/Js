@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
          setTimeout(() => {
             text.style.color = 'pink'
             // img.style.backgroundImage = 'url(/beach-1852945_1280.jpg)';
-         }, 300);
+         }, 1300);
     }, 100);
     
    
