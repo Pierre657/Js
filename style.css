@@ -59,7 +59,7 @@ li {
     place-items: center;
     font-size: 5rem; 
     transition: all 1s ease-in-out;
-    line-height: 2;
+    
 }
 
 .burger {
@@ -109,4 +109,5 @@ li {
     border: 10px solid pink;
     padding: 10px;
     transition: all 1s ease-in-out;
+    line-height: 2.5;
 }
