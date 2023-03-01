@@ -200,6 +200,6 @@ li {
 
 @media screen and (max-width: 400px) {
     .meme-item{
-       max-width: none;
+       max-width: 90%;
     }
 }
